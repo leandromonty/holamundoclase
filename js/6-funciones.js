@@ -16,5 +16,7 @@ aumentarPrecio();
 
 let coeficienteIflacion = parseInt(prompt('ingrese el monto total del mes'))
 
-
 actualizarPrecio(coeficienteIflacion, 'Teclado Hyperx',9000)
+actualizarPrecio(coeficienteIflacion, 'Teclado logitec',9000)
+actualizarPrecio('mouse logitec',9000, 100)
+

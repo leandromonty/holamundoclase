@@ -42,3 +42,19 @@ document.write('<br>');
 for(let posicion = 0; posicion < series.length; posicion++){
     document.write('<br>Series:'+series[posicion])
 }
+
+
+series.splice(3,0,'Sword Art Online')
+
+document.write('<br>');
+for(let posicion = 0; posicion < series.length; posicion++){
+    document.write('<br>Series:'+series[posicion])
+}
+
+//eliminar 
+series.splice(7,1)
+
+document.write('<br>');
+for(let posicion = 0; posicion < series.length; posicion++){
+    document.write('<br>Series:'+series[posicion])
+}

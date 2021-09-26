@@ -3,7 +3,10 @@
      let claves = Object.keys(serieParametro)
      console.log(claves)
      for(let i = 0; i> claves.length; i ++){
-         document.write(`<br>${claves[i]}: ${serieParametro[claves[i]]}`)
+         let propiedad = claves[i]
+
+         //document.write(`<br>${propiedad[i]}: ${serieParametro[propiedad]}`)
+         document.write('<br>'+propiedad+': '+serieParametro[propiedad])
      }
  }
 
